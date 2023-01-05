@@ -11,6 +11,6 @@
       - name: kernel.panic
         value: '10'
   roles:
-    - role: sysctl
+    - role: rolehippie.sysctl
 
 ...
