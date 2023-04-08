@@ -1,6 +1,11 @@
 # sysctl
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/sysctl) [![General Workflow](https://github.com/rolehippie/sysctl/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/sysctl/actions/workflows/general.yml) [![Readme Workflow](https://github.com/rolehippie/sysctl/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/sysctl/actions/workflows/readme.yml) [![Galaxy Workflow](https://github.com/rolehippie/sysctl/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/sysctl/actions/workflows/galaxy.yml) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/sysctl)](https://github.com/rolehippie/sysctl/blob/master/LICENSE) [![Ansible Role](https://img.shields.io/ansible/role/51438)](https://galaxy.ansible.com/rolehippie/sysctl)
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&amp;logoColor=white)](https://github.com/rolehippie/sysctl)
+[![General Workflow](https://github.com/rolehippie/sysctl/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/sysctl/actions/workflows/general.yml)
+[![Readme Workflow](https://github.com/rolehippie/sysctl/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/sysctl/actions/workflows/readme.yml)
+[![Galaxy Workflow](https://github.com/rolehippie/sysctl/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/sysctl/actions/workflows/galaxy.yml)
+[![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/sysctl)](https://github.com/rolehippie/sysctl/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/role-rolehippie.sysctl-blue)](https://galaxy.ansible.com/rolehippie/sysctl)
 
 Ansible role to configure sysctl settings.
 
