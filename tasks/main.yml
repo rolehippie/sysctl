@@ -3,7 +3,7 @@
   loop: "{{ sysctl_defaults + sysctl_extra }}"
   loop_control:
     label: "{{ item.name }}"
-  sysctl:
+  ansible.posix.sysctl:
     name: "{{ item.name }}"
     value: "{{ item.value }}"
     ignoreerrors: "{{ item.ignoreerrors | default(omit) }}"
