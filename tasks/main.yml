@@ -1,10 +1,9 @@
-# Standards: 1.2
 ---
 - name: Write defined values
   loop: "{{ sysctl_defaults + sysctl_extra }}"
   loop_control:
     label: "{{ item.name }}"
-  sysctl:
+  ansible.posix.sysctl:
     name: "{{ item.name }}"
     value: "{{ item.value }}"
     ignoreerrors: "{{ item.ignoreerrors | default(omit) }}"
