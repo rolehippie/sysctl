@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/sysctl/compare/v2.0.0...v2.1.0) (2025-09-21)
+
+
+### Features
+
+* apply new repo structure and update linting ([12a7b2d](https://github.com/rolehippie/sysctl/commit/12a7b2dec63d100cf7354c5943263a88ea1df5b7))
+
 ## [2.0.0](https://github.com/rolehippie/sysctl/compare/v1.0.0...v2.0.0) (2024-02-12)
 
 
