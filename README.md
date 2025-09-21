@@ -1,4 +1,4 @@
-# workspace
+# sysctl
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/sysctl)
 [![General Workflow](https://github.com/rolehippie/sysctl/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/sysctl/actions/workflows/general.yml)
@@ -50,10 +50,10 @@ sysctl_defaults:
     value: 1
   - name: net.ipv6.conf.all.forwarding
     value: 1
-    ignoreerrors: True
-    reload: True
+    ignoreerrors: true
+    reload: true
     sysctl_file: /etc/sysctl.conf
-    sysctl_set: True
+    sysctl_set: true
   - name: kernel.panic
     state: absent
 ```
@@ -76,10 +76,10 @@ sysctl_extra:
     value: 1
   - name: net.ipv6.conf.all.forwarding
     value: 1
-    ignoreerrors: True
-    reload: True
+    ignoreerrors: true
+    reload: true
     sysctl_file: /etc/sysctl.conf
-    sysctl_set: True
+    sysctl_set: true
   - name: kernel.panic
     state: absent
 ```

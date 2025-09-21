@@ -6,11 +6,11 @@
   ansible.posix.sysctl:
     name: "{{ item.name }}"
     value: "{{ item.value }}"
-    ignoreerrors: "{{ item.ignoreerrors | default(omit) }}"
-    reload: "{{ item.reload | default(omit) }}"
-    sysctl_file: "{{ item.sysctl_file | default(omit) }}"
-    sysctl_set: "{{ item.sysctl_set | default(True) }}"
-    state: "{{ item.state | default('present') }}"
+    ignoreerrors: "{{ omit if item.ignoreerrors is undefined else item.ignoreerrors }}"
+    reload: "{{ omit if item.reload is undefined else item.reload }}"
+    sysctl_file: "{{ omit if item.sysctl_file is undefined else item.sysctl_file }}"
+    sysctl_set: "{{ true if item.sysctl_set is undefined else item.sysctl_set }}"
+    state: "{{ 'present' if item.state is undefined else item.state }}"
   tags:
     - sysctl
 
