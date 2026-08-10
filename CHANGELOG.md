@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/rolehippie/sysctl/compare/v2.2.0...v2.3.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#42](https://github.com/rolehippie/sysctl/issues/42)) ([2a50302](https://github.com/rolehippie/sysctl/commit/2a5030296a5bac548fc94f9f4e73b8bd9336284a))
+* **patch:** update dependency python to v3.14.7 ([#40](https://github.com/rolehippie/sysctl/issues/40)) ([dd81d46](https://github.com/rolehippie/sysctl/commit/dd81d4662f6b70a62ea3b320954babd357c8b3ef))
+
 ## [2.2.0](https://github.com/rolehippie/sysctl/compare/v2.1.0...v2.2.0) (2026-07-27)
 
 ## [2.1.0](https://github.com/rolehippie/sysctl/compare/v2.0.0...v2.1.0) (2025-09-21)
