@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/sysctl/compare/v2.3.0...v2.4.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#45](https://github.com/rolehippie/sysctl/issues/45)) ([f2e8cfd](https://github.com/rolehippie/sysctl/commit/f2e8cfd070a7d723499b63dde25659b7b7ace0f1))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#46](https://github.com/rolehippie/sysctl/issues/46)) ([9d0410d](https://github.com/rolehippie/sysctl/commit/9d0410db3e6f9d46001d36129cf5c0e58619d2b7))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#43](https://github.com/rolehippie/sysctl/issues/43)) ([b817745](https://github.com/rolehippie/sysctl/commit/b817745d8678a3f80adc1bb7a3c0fe77c2963f1b))
+* **patch:** update dependency pre-commit to v4.6.2 ([#44](https://github.com/rolehippie/sysctl/issues/44)) ([e1c64dd](https://github.com/rolehippie/sysctl/commit/e1c64dd43432f2f06d8010887b8ad859e0c958c1))
+
 ## [2.3.0](https://github.com/rolehippie/sysctl/compare/v2.2.0...v2.3.0) (2026-08-10)
 
 ### Dependencies
